@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Area Mapper App</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background-color: #121212;
+      color: #fff;
+    }
+
+    header {
+      background-color: #1f1f1f;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 2px solid #3386cc;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      color: #3386cc;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+      text-align: center;
+    }
+
+    .description {
+      font-size: 1.2rem;
+      line-height: 1.6;
+      margin-bottom: 40px;
+    }
+
+    .download-btn,
+    .linkedin-btn {
+      display: inline-block;
+      background-color: #3386cc;
+      color: #fff;
+      padding: 15px 30px;
+      font-size: 1.2rem;
+      text-decoration: none;
+      border-radius: 10px;
+      transition: background-color 0.3s ease;
+    }
+
+    .download-btn:hover,
+    .linkedin-btn:hover {
+      background-color: #2a6eaa;
+    }
+
+    .linkedin-btn {
+      margin-top: 15px;
+    }
+
+    .linkedin-btn svg {
+      vertical-align: middle;
+      margin-right: 8px;
+      width: 20px;
+      height: 20px;
+      fill: white;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 60px;
+      padding: 20px;
+      color: #aaa;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Area Mapper</h1>
+  </header>
+
+  <div class="container">
+    <p class="description">
+      🚀 Area Mapper is a powerful desktop tool that lets you search any city or region by name, and instantly highlights the country it belongs to on a beautiful map. <br><br>
+      It uses geolocation and shapefile data to create a visual representation and also exports the result for you. Perfect for students, travelers, and geography enthusiasts! 🌍
+    </p>
+
+    <!-- Download Button -->
+    <a class="download-btn" href="https://drive.google.com/file/d/1DeQRca0WyVR3XIuh4g2IhgmgzihM8ZAB/view?usp=drive_link" download>
+      📥 Download Area Mapper
+    </a>
+
+    <!-- LinkedIn Button (under download) -->
+    <br />
+    <a class="linkedin-btn" href="https://www.linkedin.com/in/moamen-mohamed-459477230/" target="_blank">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+        <path d="M100.28 448H7.4V148.9h92.88zm-46.44-341a53.4 53.4 0 1 1 53.4-53.4 53.4 53.4 0 0 1-53.4 53.4zM447.8 448h-92.4V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.6V448h-92.4V148.9h88.7v40.8h1.3c12.3-23.3 42.4-48 87.3-48 93.4 0 110.6 61.5 110.6 141.3V448z"/>
+      </svg>
+      Connect on LinkedIn
+    </a>
+  </div>
+
+  <footer>
+    &copy; 2025 Area Mapper. All rights reserved By Moamen Mohamed.
+  </footer>
+
+</body>
+</html>
